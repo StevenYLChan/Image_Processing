@@ -1,6 +1,16 @@
 # Image_Processing
 Projects that utilize the OpenCV library. Coded in Python.
 
+#### Project 9 - Wavelet Fusion
+Takes in two images and performs Wavelet CDF 9/7 and fuses them into one resultant image.
+######Input: 
+  -two images 
+
+######Output:
+  -Display with input and output images
+  
+  -Merged image saved to project location
+
 #### Project 10 - Image Tracking
 Takes in a sequence of frames as well as interest points and tracks it.
 Also utilizes Lucas-Kanade optical flow method.
