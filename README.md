@@ -1,10 +1,34 @@
 # Image_Processing
 Projects that utilize the OpenCV library. Coded in Python.
 
+#### Project 8 - Detection, Thresholding
+#####kmeans_clustering Function
+Takes in an image and performs K-Means Clustering.
+######Input: 
+  -Image file
+
+######Output:
+  -Display with K-Means Clustering performed
+#####thresholding Function
+Takes in an image and performs Image Thresholding using OTSU.
+######Input: 
+  -Image file
+
+######Output:
+  -Display with image thresholding performed
+#####circle_detection Function
+Takes in an image and performs Hough Circle Transform to detect circles.
+######Input: 
+  -Image file
+
+######Output:
+  -Display with detected circles on input image
+
+  
 #### Project 9 - Wavelet Fusion
 Takes in two images and performs Wavelet CDF 9/7 and fuses them into one resultant image.
 ######Input: 
-  -two images 
+  -Two image files 
 
 ######Output:
   -Display with input and output images
