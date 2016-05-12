@@ -1,7 +1,15 @@
 # Image_Processing
 Projects that utilize the OpenCV library. Coded in Python.
 
-#### Project 8 - Detection, Thresholding
+#### Project 7 - Channels
+Takes in a grayscale image, grabs the RGB channels and reconstructs the image.
+######Input: 
+  -Image file 
+
+######Output:
+  -Display with reconstructed output image
+
+#### Project 8 - Detection, Thresholding, K-Means Clustering
 #####kmeans_clustering Function
 Takes in an image and performs K-Means Clustering.
 ######Input: 
