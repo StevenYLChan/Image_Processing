@@ -1,5 +1,28 @@
 # Image_Processing
 Projects that utilize the OpenCV library. Coded in Python.
+#### Project 5 - Filters,Canny Edge Detection
+#####filter2d.py
+Takes in an input image, applies filter on x,y then merges and outputs the image.
+######Input: 
+  -Image file 
+
+######Output:
+  -Display with output image
+#####canny_edge_detection.py
+Takes in an input image, provides trackbars to adjust minimum and maximum for Canny Edge Detection.
+######Input: 
+  -Image file 
+
+######Output:
+  -Display with trackbars and output image
+
+#### Project 6 - Key Points
+Takes in two images and uses SIFT detection and Lowe's ratio test to stitch the result image. 
+######Input: 
+  -Two image files 
+
+######Output:
+  -Display with input and output stitched image
 
 #### Project 7 - Channels
 Takes in a grayscale image, grabs the RGB channels and reconstructs the image.
