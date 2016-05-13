@@ -1,5 +1,31 @@
 # Image_Processing
 Projects that utilize the OpenCV library. Coded in Python.
+
+#### Project 4 - Kernel Filter, Median & Gaussian Filter Noise Reduction, Damaged Image Masking
+#####kernel_filter.py
+Takes in an input image, applies kernel with filter and displays output.
+######Input: 
+  -Image file 
+
+######Output:
+  -Display with output image
+#####filter_noise_reduction.py
+Takes in an input image, performs median and gaussian filter to remove noise. 
+######Input: 
+  -Image file 
+
+######Output:
+  -Display with output images
+  
+#####masking.py
+Takes in an input and mask image. Determines location of damaged pixels and uses Gaussian Blur to replace the pixels.
+######Input: 
+  -Image file 
+  -Mask file
+
+######Output:
+  -Display with damaged pixels removed from input image
+  
 #### Project 5 - Filters,Canny Edge Detection
 #####filter2d.py
 Takes in an input image, applies filter on x,y then merges and outputs the image.
