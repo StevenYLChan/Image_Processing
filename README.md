@@ -1,7 +1,15 @@
 # Image_Processing
 Projects that utilize the OpenCV library. Coded in Python.
 
-#### Project 4 - Kernel Filter, Median & Gaussian Filter Noise Reduction, Damaged Image Masking
+#### Project 1 - Histograms
+Takes in an image and calculates the histogram. 
+######Input: 
+  -Image file
+
+######Output:
+  -Histogram calculation summed
+  
+#### Project 3 - Kernel Filter, Median & Gaussian Filter Noise Reduction, Damaged Image Masking
 #####kernel_filter.py
 Takes in an input image, applies kernel with filter and displays output.
 ######Input: 
@@ -21,6 +29,7 @@ Takes in an input image, performs median and gaussian filter to remove noise.
 Takes in an input and mask image. Determines location of damaged pixels and uses Gaussian Blur to replace the pixels.
 ######Input: 
   -Image file 
+  
   -Mask file
 
 ######Output:
